@@ -1,0 +1,108 @@
+@font-face {
+    font-family:nos ;
+    src: url(fonts/static/Raleway-Light.ttf);
+}
+body {
+    margin:0
+}
+
+
+.logo{
+    font-family:nos;
+    float:left ;                               
+    padding:0px 40px 0px;
+    margin-left:20px;
+    position:absolute;
+    
+}
+nav{
+    
+    padding-top:30px;
+    padding-bottom:10px;
+    position: relative;
+    box-shadow: 4px 4px 4px #d4d2d2;
+    
+}
+
+.menu {
+    
+    text-align:right;
+    margin:0;
+    position:relative;
+    left:0px;
+}
+
+
+
+
+
+
+
+
+.menu li{
+    font-family:nos;
+    display:inline;
+    margin:0px -2px 0px;
+    padding:40px 40px 10px;
+    width:100%;
+}
+.menu li:hover{
+    background-color: #c7c9c9;
+}
+.menu li a {
+    text-decoration:none;
+    color:#090c0e;
+}
+
+
+.laptop-container {
+    position: relative;
+}
+.laptop-container img {
+   
+    height:600px;
+    width:100%;
+    
+}
+.laptop-container h1 {
+    position:absolute;
+    color:white;
+    top:10px;
+    left:50px;
+    font-family:nos;
+    font-size:70px;
+}
+.laptop-container h2{
+    position:absolute;
+    color:white;
+    top:200px;
+    left:50px;
+    font-family:nos;
+}
+
+.laptop-container button {
+    /* padding-left:20px; */
+    /* padding-right:20px; */
+    
+    font-size:1.3em;
+    position: absolute;
+    width:25%;
+    font-family:nos;
+    height:50px;
+    top:280px;
+    left:50px;
+}
+
+.laptop-container .laptop-icons{
+    position:absolute;
+    font-size: 1.7em;
+    bottom:20px;
+    left:50px;
+}
+.laptop-social-media{
+    text-decoration:none;
+    color:#c7c9c9;
+}
+.laptop-social-media :hover{
+    color:khaki
+}
